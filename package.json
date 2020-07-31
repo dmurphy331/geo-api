@@ -1,0 +1,17 @@
+{
+  "name": "geo-api",
+  "version": "1.0.0",
+  "description": "API to get people based in London or within 50 miles",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 start src/index.js --watch",
+    "stop": "pm2 stop all"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "geolib": "^3.3.1",
+    "pm2": "^4.4.0"
+  }
+}
