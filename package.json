@@ -9,7 +9,7 @@
     "stop": "pm2 stop all"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "geolib": "^3.3.1",
     "pm2": "^4.4.0"
